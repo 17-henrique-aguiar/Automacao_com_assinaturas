@@ -20,7 +20,7 @@ for indice, linha in enumerate(sheet_alunos.iter_rows(min_row=2, max_row=2)):
     fonte_geral = ImageFont.truetype('./tahoma.ttf',80)
     fonte_data = ImageFont.truetype('./tahoma.ttf',55)
 
-    image = Image.open('./cerificado_padrao.jpg')
+    image = Image.open('./certificado_padrao.jpg')
     desenhar = ImageDraw.Draw(image)
 
     desenhar.text((1020,827),nome_participante,fill='black',font=fonte_nome)
